@@ -19,6 +19,7 @@ namespace GrausFC
             
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Seu resultado em Celsius é " + resultfinal + "°C.");
+            Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.Gray;
 
         }
